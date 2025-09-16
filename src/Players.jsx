@@ -10,9 +10,9 @@ export default function Players() {
   return (
     <div className="card">
       <h4>Players : {players.length} </h4>
-      <ol>
+      <ol className="card">
         {players.map((player) => (
-        <li>{player.name}</li>
+        <li className="card">{player.name}</li>
       ))}
       </ol>
     </div>
