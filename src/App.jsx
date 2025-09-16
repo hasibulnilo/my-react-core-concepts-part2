@@ -1,5 +1,5 @@
-import Batsman from './Batsman';
-import Counter from './counter';
+import Batsman from "./Batsman";
+import Counter from "./counter";
 import "./App.css";
 
 function App() {
@@ -22,14 +22,7 @@ function App() {
 
       <Batsman></Batsman>
 
-  <Counter></Counter>
-
-
-
-
-
-
-
+      <Counter></Counter>
 
       {/* <button onClick="handleClick()">Clik me</button> */}
 
@@ -40,7 +33,7 @@ function App() {
           alert("clicked 2");
         }}
       >
-        Click me 3 
+        Click me 3
       </button>
 
       <button onClick={handleClick3}>Click me 4</button>
@@ -48,6 +41,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
